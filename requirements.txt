@@ -1,0 +1,6 @@
+ngsolve
+numpy
+scipy
+matplotlib
+plotly
+pandas
