@@ -4,22 +4,21 @@ Finite Element Method (FEM) analysis projects using [NGSolve](https://ngsolve.or
 
 ## Overview
 
-This repository is a collection of NGSolve-based FEM simulation projects. Each project lives in its own subfolder under `projects/` and is self-contained (own scripts, data, results, and figures).
+This repository is a collection of NGSolve-based FEM simulation projects. Each project lives in its own subfolder under `projects/` and is self-contained (own code, data, results, and figures).
 
 ## Repository structure
 
 ```
 FEM/
 ├── projects/
-│   ├── project-1/
+│   ├── CystatinC/
 │   │   ├── src/          # NGSolve simulation scripts (mesh generation, solvers, sweeps)
 │   │   ├── data/         # Input parameters, material data, refractive index tables
 │   │   ├── results/      # Output data (CSV/JSON) from simulation runs
 │   │   ├── figures/      # Plots generated from results
 │   │   ├── notebooks/    # Exploratory/analysis notebooks
 │   │   └── README.md     # Project-specific overview, methodology, and results
-│   └── project-2/
-│       └── ...
+│   └── .../              # Additional projects follow the same layout
 ├── requirements.txt
 └── README.md
 ```
@@ -35,6 +34,10 @@ pip install -r requirements.txt
 ```
 
 Requires NGSolve (`pip install ngsolve`) and standard scientific Python packages (numpy, scipy, matplotlib, plotly).
+
+## Projects
+
+- **CystatinC** — FEM simulation project (see `projects/CystatinC/README.md` for details).
 
 ## Adding a new project
 
