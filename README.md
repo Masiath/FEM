@@ -48,4 +48,4 @@ For consistency across projects: individual plots only (no combined subplots), a
 
 ## License
 
-TBD
+[MIT](LICENSE)
